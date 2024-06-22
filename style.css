@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  /* font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif; */
+    body{
+        background-color:  hsl(233, 47%, 7%);
+        font-size: 15px;
+        font-weight: 400;
+        color: hsl(0, 0%, 100%);
+        font-family: "Lexend Deca", sans-serif;
+    }
+    .container{
+        background-color: hsl(244, 38%, 16%);
+        width: 900px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 15px;
+        margin: 50px auto 30px;
+       
+
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+       display: inherit;
+       border-radius: 10px;
+     
+        
+    }
+    .cards{
+        padding: 30px;
+    }
+    .cards h2{
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+       
+    }
+    h2 span{
+        color: hsl(277, 64%, 61%);
+    }
+    .cards p{
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        margin-top:40px ;
+      
+    }
+    .bottom h4{
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+    .last h4{
+        text-transform: uppercase;
+    }
+    .bottom p{
+        text-transform: uppercase;
+       
+        
+    }
